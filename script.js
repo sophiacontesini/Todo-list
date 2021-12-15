@@ -57,5 +57,9 @@ function apagaTudo(){
 // Recebi ajuda da Débora Serra - Turma 19-tribo B
 botaoRemove.addEventListener('click', removeItem);
 function removeItem(){
-
+  let itensLista = document.getElementsByClassName('completed');
+  for (let i=0; i < itensLista.length; i+=1) {
+    lista.removeChild(itensLista[i]);
+  }
+  
 }
