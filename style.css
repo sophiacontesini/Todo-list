@@ -38,10 +38,6 @@
   text-align: center;
 }
 
-.selected {
-  background-color: rgb(128, 128, 128);
-}
-
 li {
   list-style-position: inside;
   cursor: pointer;
@@ -49,4 +45,8 @@ li {
 
 ol {
   padding: auto;
+}
+
+.completed {
+  text-decoration: line-through;
 }

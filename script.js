@@ -16,11 +16,12 @@ botao.addEventListener("click", criaClick);
     lista.appendChild(criaLista);
     input.value = '';
     criaLista.addEventListener('click', changeColor);
+    criaLista.addEventListener('dblclick', riscaItem);
   }
 
 //7. Alterar a cor de fundo para cinza
-// 8. Não selecionar mais de um elemento ao mesmo tempo
-// texto.addEventListener ("click", corFundo); Evento de click adicionado na função anterior
+//8. Não selecionar mais de um elemento ao mesmo tempo
+// Recebi ajuda da Débora Serra- Turma 19-tribo B
 
 function changeColor(e) {
   let list = document.querySelectorAll('li');
@@ -32,15 +33,18 @@ function changeColor(e) {
 
 // 9. Ao clicar duas vezes em um item: riscá-lo
 // Desfazer essa acao ao clicar duas vezes novamente no item
-
-
-
-
+// toggle remove e adiciona parametros na classe.
+// Recebi ajuda da Débora Serra- Turma 19-tribo B
+function riscaItem(e) {
+e.target.classList.toggle('completed');
+}
 
 //10. Adicionar botao com id= "apaga-tudo" 
+// Recebi ajuda da Débora Serra - Turma 19-tribo B
+
 
 //11.  Adicionar botao com id= "remover-finalizados"
-
+// Recebi ajuda da Débora Serra - Turma 19-tribo B
 
 
 
