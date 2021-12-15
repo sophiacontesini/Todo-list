@@ -1,0 +1,52 @@
+
+.title {
+ background-color: aqua;
+ text-align: center;
+ color: rgb(0, 0, 0);
+ font-family: fantasy;
+ font-size: 50px;
+}
+
+#funcionamento {
+  text-align: center;
+  background-color: chocolate;
+  border-radius: 50px;
+}
+
+#criar-tarefa {
+  border-radius: 5px;
+  background-color: aqua;
+  text-align: center;
+  cursor: pointer;
+}
+#apagar{
+  border-radius: 5px;
+  background-color: aqua;
+  text-align: center;
+  cursor: pointer;
+}
+
+#remover{
+  border-radius: 5px;
+  background-color: aqua;
+  text-align: center;
+  cursor: pointer;
+}
+
+#lista-tarefas {
+  background-color: chocolate;
+  text-align: center;
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+}
+
+li {
+  list-style-position: inside;
+  cursor: pointer;
+}
+
+ol {
+  padding: auto;
+}
